@@ -21,8 +21,8 @@ This is a solution to the [3-column preview card component](https://www.frontend
 
 ### Links
 
-- Solution URL: [github](https://github.com/Fabzus/qr-code-challenge.github.io)
-- Live Site URL: [github](https://fabzus.github.io/qr-code-challenge.github.io/)
+- Solution URL: [github](https://github.com/Fabzus/3-column-preview-card-component-responsive)
+- Live Site URL: [github](https://fabzus.github.io/3-column-preview-card-component-responsive/)
 
 ## My process
 
