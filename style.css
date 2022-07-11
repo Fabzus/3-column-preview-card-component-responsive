@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "Lexend Deca", sans-serif;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*  */
+
+.container {
+  height: calc(100vh - 1.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.card-1 {
+  width: 20rem;
+  height: 32rem;
+  background-color: hsl(31, 77%, 52%);
+  padding: 2.5rem 3rem;
+  border-radius: 1rem 0 0 1rem;
+  border-collapse: separate;
+}
+
+.card-2 {
+  width: 20rem;
+  height: 32rem;
+  background-color: hsl(184, 100%, 22%);
+  padding: 2.5rem 3rem;
+}
+
+.card-3 {
+  width: 20rem;
+  height: 32rem;
+  background-color: hsl(179, 100%, 13%);
+  padding: 2.5rem 3rem;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.card-header {
+  margin-bottom: 2.5rem;
+}
+
+.card-title {
+  margin-bottom: 2.5rem;
+}
+
+.card-content {
+  margin-bottom: 4rem;
+}
+
+.card-btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  background-color: hsl(0, 0%, 95%);
+  height: 3rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  font-weight: 400;
+}
+
+.btn1 {
+  color: hsl(31, 77%, 52%);
+  font-size: 1rem;
+}
+.btn2 {
+  color: hsl(184, 100%, 22%);
+  font-size: 1rem;
+}
+.btn3 {
+  color: hsl(179, 100%, 13%);
+  font-size: 1rem;
+}
+
+.card-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .card-1 {
+    height: 30rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+  .card-2 {
+    height: 30rem;
+  }
+  .card-3 {
+    height: 30rem;
+    border-radius: 0 0 1rem 1rem;
+  }
+  .card-content {
+    margin-bottom: 2rem;
+  }
+}
